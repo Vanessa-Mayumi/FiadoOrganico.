@@ -12,6 +12,8 @@ public class Main {
 		Scanner scanner = new Scanner (System.in);
 		System.out.print("Informe o nome do cliente: ");
 		consumidor.nome = scanner.nextLine();
+		System.out.print("Informe o número do telefone do cliente: ");
+		consumidor.telefone = scanner.nextLine();
 		System.out.print("Informe o valor da compra: ");
 		consumidor.fiados[0] = Integer.valueOf(scanner.nextLine());
 		

@@ -6,7 +6,8 @@ public class Consumidor {
 	//Atributos
 	//PACKAGE - PUBLIC - PROTECTED - PRIVATE
 	public String nome;
-	public int[] fiados ;
+	public int[] fiados;
+	public String telefone; 
 	
 	//CONSTRUTOR
 	public Consumidor() {
